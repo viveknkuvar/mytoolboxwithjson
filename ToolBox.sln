@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DB4FE921-B618-4B15-8630-6223821792F7}"
+	ProjectSection(SolutionItems) = preProject
+		default.html = default.html
+		READ ME.txt = READ ME.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS", "CSS", "{D16FFDDB-76FE-4D73-A24D-84C3B3583512}"
+	ProjectSection(SolutionItems) = preProject
+		CSS\bootstrap - Copy.css = CSS\bootstrap - Copy.css
+		CSS\bootstrap.css = CSS\bootstrap.css
+		CSS\bootstrap.css.map = CSS\bootstrap.css.map
+		CSS\bootstrap.min.css = CSS\bootstrap.min.css
+		CSS\font-awesome.min.css = CSS\font-awesome.min.css
+		CSS\Style-grange.css = CSS\Style-grange.css
+		CSS\Style.css = CSS\Style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{75E231B8-A7E6-45AD-8A4A-C363F0554BC0}"
+	ProjectSection(SolutionItems) = preProject
+		CSS\Images\candy-cane.png = CSS\Images\candy-cane.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{8A400161-0082-4C93-9B53-9C49CE7BDD56}"
+	ProjectSection(SolutionItems) = preProject
+		Images\ACRI_logo.png = Images\ACRI_logo.png
+		Images\Conscious.png = Images\Conscious.png
+		Images\dark_logo.png = Images\dark_logo.png
+		Images\DefaultGrange.PNG = Images\DefaultGrange.PNG
+		Images\DefaultImage.PNG = Images\DefaultImage.PNG
+		Images\EasyVista.PNG = Images\EasyVista.PNG
+		Images\ExceptionLess.PNG = Images\ExceptionLess.PNG
+		Images\favicon.jpg = Images\favicon.jpg
+		Images\GitLab.png = Images\GitLab.png
+		Images\Grange.PNG = Images\Grange.PNG
+		Images\GrangeAgent.PNG = Images\GrangeAgent.PNG
+		Images\GrangeConfluence.PNG = Images\GrangeConfluence.PNG
+		Images\GrangeIntegrity.PNG = Images\GrangeIntegrity.PNG
+		Images\GrangeJira.PNG = Images\GrangeJira.PNG
+		Images\HelpDesk.PNG = Images\HelpDesk.PNG
+		Images\IBM_ContentNavigator.PNG = Images\IBM_ContentNavigator.PNG
+		Images\IBMOnDemand.png = Images\IBMOnDemand.png
+		Images\KanbanBoard.PNG = Images\KanbanBoard.PNG
+		Images\logo-grange.png = Images\logo-grange.png
+		Images\Mainframe.PNG = Images\Mainframe.PNG
+		Images\MicroStrategy.png = Images\MicroStrategy.png
+		Images\Opsgenie.png = Images\Opsgenie.png
+		Images\PMS RateBook.PNG = Images\PMS RateBook.PNG
+		Images\Sharepoint.PNG = Images\Sharepoint.PNG
+		Images\Splunk.PNG = Images\Splunk.PNG
+		Images\Teams.PNG = Images\Teams.PNG
+		Images\Tempus.PNG = Images\Tempus.PNG
+		Images\Yoda.png = Images\Yoda.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{1A22CBFF-F938-4960-8850-B1C032F24C42}"
+	ProjectSection(SolutionItems) = preProject
+		js\bootstrap.bundle.js = js\bootstrap.bundle.js
+		js\bootstrap.bundle.js.map = js\bootstrap.bundle.js.map
+		js\bootstrap.bundle.min.js = js\bootstrap.bundle.min.js
+		js\bootstrap.js = js\bootstrap.js
+		js\bootstrap.js.map = js\bootstrap.js.map
+		js\bootstrap.min.js = js\bootstrap.min.js
+		js\jquery-3.6.0.js = js\jquery-3.6.0.js
+		js\jquery-ui.js = js\jquery-ui.js
+		js\Navigate.js = js\Navigate.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D16FFDDB-76FE-4D73-A24D-84C3B3583512} = {DB4FE921-B618-4B15-8630-6223821792F7}
+		{75E231B8-A7E6-45AD-8A4A-C363F0554BC0} = {D16FFDDB-76FE-4D73-A24D-84C3B3583512}
+		{8A400161-0082-4C93-9B53-9C49CE7BDD56} = {DB4FE921-B618-4B15-8630-6223821792F7}
+		{1A22CBFF-F938-4960-8850-B1C032F24C42} = {DB4FE921-B618-4B15-8630-6223821792F7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E230D792-C15C-407C-88DB-BA4B879E22D5}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfsprd:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+	EndGlobalSection
+EndGlobal
