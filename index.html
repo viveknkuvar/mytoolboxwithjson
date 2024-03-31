@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="Images/favicon.jpg">
+    <title>My Toolbox 1.9</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <link rel="stylesheet" href="./CSS/font-awesome.min.css">
+    <script type="text/javascript" src="./js/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="./js/jquery-ui.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="./js/Navigate.js"></script>
+    <script type="text/javascript" src="./js/servers.json"></script>
+</head>
+
+<body>
+
+    <div class="header-bar site-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center">
+                        <div class="site-logo">
+                            <a href="#" title="grange_logo"><img src="Images/logo-grange.png"></a>
+                        </div>
+                        <div class="site-name">
+                            Welcome to <a class="titlename" href="#">My Toolbox 1.9</a>
+                        </div>
+                        <div id="loading-indicator" class="text-center" style="display: none;">
+                            <div class="loading-message">
+                                <div class="spinner-border text-primary" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                                <span class="message-text">Starting RDP session...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div style="float:right">
+                        <div id="timetable">
+                            <table class="table table-bordered table-dark">
+                                <tr>
+                                    <td>EDT</td>
+                                    <td id="timetableEDT"></td>
+                                    <td>EST</td>
+                                    <td id="timetableEST"></td>
+                                </tr>
+                                <tr>
+                                    <td>UTC</td>
+                                    <td id="timetableUTC"></td>
+                                    <td>IST</td>
+                                    <td id="timetableIST"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-md-6">
+                    <div id="loading-indicator" class="alert alert-danger" role="alert" style="display: none;">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="sr-only">Loading... </span>
+                        </div>
+                        <span class="message-text"> Starting RDP session...</span>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <div id="navbar">
+        <a class="tracktabslabel" href="#Gainweb" onclick="changeTrack(0)">Gainweb</a>
+    </div>
+
+    <div class="tracktabs">
+
+        <!-- Gainweb track starts below -->
+        <div class="trackcontent">
+
+            <!-- Gainweb leftnav starts below -->
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'CLServerList')" id="PLServertab">CL Servers</button>
+            </div>
+            <!-- Gainweb leftnav ends above -->
+
+            <!-- Gainweb links starts below -->
+            <div class="main-content">
+
+                <div id="CLServerList" class="tabcontent" style="display:block">
+                    <div class="server-grid-container">
+                        <div class="server-grid-item">
+                            <div class="card login-card green-card">
+                                <div class="card-header">
+                                    Application Servers
+                                </div>
+                                <div class="panel__body">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Gainweb links ends above -->
+
+        </div>
+        <!-- Gainweb track ends above-->
+
+    </div>
+
+</body>
+
+</html>

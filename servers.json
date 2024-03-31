@@ -1,0 +1,37 @@
+{
+  "applicationServers": [
+    {
+      "name": "GainWeb CL Webserver",
+      "environments": [
+        {
+          "name": "Prod",
+          "servers": [
+            "HQCOWBP10-(Agent)",
+            "HQCOWBP11-(Agent)",
+            "HQCOWBP12-(Agent)"
+          ]
+        },
+        {
+          "name": "Model",
+          "servers": [
+            "INGWWBM01-(Agent)",
+            "INGWWBM02-(Agent)",
+            "INGWWBM03-(Agent)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Session Management",
+      "environments": [
+        {
+          "name": "Prod",
+          "servers": [
+            "VMINDBP12-(Agent-SQL Server Login)",
+            "VMINDBP13-(Agent-SQL Server Login)"
+          ]
+        }
+      ]
+    }
+  ]
+}

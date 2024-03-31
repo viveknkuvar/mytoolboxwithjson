@@ -1,0 +1,1 @@
+robocopy "C:\TFS\Grange Commercial SEQ\TOOLS\ToolBox" "\\hqgwcsm01\wwwroot\ToolBox" /E /R:3 /W:5 /PURGE /XD ".vs" /XF "*.sln" "*.vssscc" "*.bat"
